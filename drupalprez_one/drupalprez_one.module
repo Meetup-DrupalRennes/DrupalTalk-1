@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function drupalprez_one_theme($existing, $type, $theme, $path) {
+  return [
+    'drupalprez_theme' => [
+      'variables' => [
+        'username' => '',
+        'latest_post' => NULL,
+      ],
+    ],
+  ];
+}

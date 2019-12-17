@@ -1,0 +1,29 @@
+uuid: a87376a8-c1f8-433b-a2db-67689a797b92
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.ct_test.body
+    - node.type.ct_test
+  module:
+    - text
+    - user
+id: node.ct_test.default
+targetEntityType: node
+bundle: ct_test
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,11 @@
+uuid: cba85bbf-df69-4a8d-be6f-51c01ea1b25f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.ct_test
+id: node.ct_test
+target_entity_type_id: node
+target_bundle: ct_test
+default_langcode: site_default
+language_alterable: false

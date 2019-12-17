@@ -1,0 +1,21 @@
+drupalprez_one.no_cache:
+  path: '/test-sans-cache'
+  defaults:
+    departement: 'all'
+    _controller: '\Drupal\drupalprez_one\Controller\DrupalPrezController::page'
+  requirements:
+    _permission: 'access content'
+drupalprez_one.cache:
+  path: '/test-avec-cache'
+  defaults:
+    departement: 'all'
+    _controller: '\Drupal\drupalprez_one\Controller\DrupalPrezController::page'
+  requirements:
+    _permission: 'access content'
+drupalprez_one.good_cache:
+  path: '/test-fixed'
+  defaults:
+    departement: 'all'
+    _controller: '\Drupal\drupalprez_one\Controller\DrupalPrezController::page'
+  requirements:
+    _permission: 'access content'

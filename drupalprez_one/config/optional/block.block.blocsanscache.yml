@@ -1,0 +1,26 @@
+uuid: 81a943ef-e84a-4078-9e6c-34292e724b79
+langcode: fr
+status: true
+dependencies:
+  module:
+    - drupalprez_one
+    - system
+  theme:
+    - bartik
+id: blocsanscache
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: no_cache_block
+settings:
+  id: no_cache_block
+  label: 'Bloc sans cache'
+  provider: drupalprez_one
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /test-sans-cache
+    negate: false
+    context_mapping: {  }

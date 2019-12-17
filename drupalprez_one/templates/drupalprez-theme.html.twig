@@ -1,0 +1,8 @@
+<h1>Votre nom :</h1>
+<p>{{ username }}</p>
+<h1>Votre dernier post :</h1>
+{% if latest_post is not null %}
+<p>{{ latest_post }}</p>
+{% else %}
+<p>Aucun post pour le moment</p>
+{% endif %}

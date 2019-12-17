@@ -1,0 +1,26 @@
+uuid: 8deb9842-7bd5-4ed6-b701-3d7b63620ee5
+langcode: fr
+status: true
+dependencies:
+  module:
+    - drupalprez_one
+    - system
+  theme:
+    - bartik
+id: blocaveccachedebase
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: cached_block
+settings:
+  id: cached_block
+  label: 'Bloc avec cache de base'
+  provider: drupalprez_one
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /test-avec-cache
+    negate: false
+    context_mapping: {  }

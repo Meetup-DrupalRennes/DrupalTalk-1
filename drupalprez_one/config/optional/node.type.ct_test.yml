@@ -1,0 +1,11 @@
+uuid: 3675387a-7db3-4889-9ceb-81c20f0b837a
+langcode: fr
+status: true
+dependencies: {  }
+name: 'CT test'
+type: ct_test
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

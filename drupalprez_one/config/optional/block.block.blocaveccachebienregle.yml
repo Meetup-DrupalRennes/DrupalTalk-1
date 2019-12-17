@@ -1,0 +1,26 @@
+uuid: 16c42395-c857-48a8-9e1a-a50ec74569fe
+langcode: fr
+status: true
+dependencies:
+  module:
+    - drupalprez_one
+    - system
+  theme:
+    - bartik
+id: blocaveccachebienregle
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: well_cached_block
+settings:
+  id: well_cached_block
+  label: 'Bloc avec cache bien réglé'
+  provider: drupalprez_one
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /test-fixed
+    negate: false
+    context_mapping: {  }

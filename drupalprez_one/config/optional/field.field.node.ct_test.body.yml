@@ -1,0 +1,22 @@
+uuid: fe0e27c1-15a7-4e4a-87a5-deeaa9467357
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.ct_test
+  module:
+    - text
+id: node.ct_test.body
+field_name: body
+entity_type: node
+bundle: ct_test
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

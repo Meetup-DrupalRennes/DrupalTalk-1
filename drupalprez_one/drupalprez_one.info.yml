@@ -1,0 +1,10 @@
+name: 'Présentation Drupal'
+type: module
+description: 'Module de la présentation Drupal'
+core: 8.x
+package: 'Drupal Rennes'
+
+# Dependencies
+dependencies:
+  - drupal:node
+  - drupal:user
